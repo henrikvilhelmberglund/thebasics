@@ -6,7 +6,7 @@ const myFunction = (name: string, age: number): void => {
   console.log(name, age);
 };
 
-myFunction("karl", 16);
+function myFunction2(name: string, age: number) {}
 
 // Funktioner med returtyp
 
@@ -41,6 +41,10 @@ function printMovie(title: string): void {
 const throwException = (errorMsg: string, errorCode: number): never => {
   throw new Error();
 };
+
+function throwException2(errorMsg: string, errorCode: number): never {
+  throw new Error();
+}
 
 function mainLoop(): never {
   while (true) {
